@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.report-card {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s;
+}
+
+.report-card:hover {
+  transform: scale(1.01);
+}
+
+.report-date {
+  font-size: 20px;
+  font-weight: bold;
+  color: #90caf9;
+  margin-bottom: 12px;
+}
+
+.entry-time {
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 4px;
+  color: #ffcc80;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 6px;
+}
